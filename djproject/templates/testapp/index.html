@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+       crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static "css/demo.css" %}">
+    <title></title>
+  </head>
+  <body>
+    <div class="container" align='center'>
+    <div class="jumbotron">
+  <h1 class="display-4">Welcome to Jobs Portal!</h1><br>
+
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/hydjobs" role="button">Hyderabad Jobs</a>
+    <a class="btn btn-primary btn-lg" href="/punejobs" role="button">Pune Jobs</a>
+    <a class="btn btn-primary btn-lg" href="/chennaijobs" role="button">Chennai Jobs</a>
+
+  </p>
+    </div>
+    </div>
+  </body>
+</html>
